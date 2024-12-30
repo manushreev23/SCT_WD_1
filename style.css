@@ -1,0 +1,122 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  #home { background-image:url(https://t4.ftcdn.net/jpg/05/72/82/85/360_F_572828530_ofzCYowQVnlOwkcoBJnZqT36klbJzWdn.jpg) ;
+    background-size: cover;
+
+ }
+ h1{
+    padding: 20px;
+  
+    border-radius: 10px;
+    color:white;
+    font-size:1.9em;
+background-color: #111;
+
+}
+  
+
+p{
+    background-color: white;
+    font-size: 1.7em;
+    padding:30px;
+    
+ }
+  
+  #services { background: #2d0351; }
+  #contact { background: #313b02; }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    margin: 0 20px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  /* Hover Effects */
+  .menu ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Navbar Scroll Effects */
+  .navbar.scrolled {
+    background-color: #e71111;
+    box-shadow: 0 2px 5px rgba(25, 26, 23, 0.404);
+  }
+  /* About Section */
+#about {
+    background-color: #131313; /* Light background color for the About section */
+    padding: 50px 20px; /* Padding to give space around the content */
+    text-align: center; /* Center align text */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    color: #e2a4c9ec; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  p {
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    color: #666; /* Lighter text color for paragraph */
+    line-height: 1.6; /* Adds space between lines for better readability */
+    max-width: 800px; /* Max width for the text */
+    margin: 0 auto 30px auto; /* Center text and add margin below */
+    border-radius: 10px;
+  }
+  
+ 
+   
+  
+ 
+  
+  @media (max-width: 768px) {
+    #about h2 {
+      font-size: 2rem; /* Slightly smaller heading on mobile devices */
+    }
+    
+    #about p {
+      font-size: 1rem; /* Smaller font size for paragraphs on mobile */
+    }
+    
+  
+    
+  }
+  
